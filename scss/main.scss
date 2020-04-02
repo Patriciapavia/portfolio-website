@@ -1,0 +1,93 @@
+$primary-color: grey;
+$show-home-img:true;
+$home-image: url(../dist/img/showcase.jpeg)
+$background-opacity:0.9;
+
+@mixin background {
+  @if $show-home-img {
+    &#bg-img{
+      background:$home-image
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    
+  }
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  @include background;
+  background:gray;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  margin: 0;
+  line-height: 1.5;
+}
+
+
+/* heading*/
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-weight: 400;
+}
+
+h1.lg-heading {
+  font-size: 55px;
+  margin-top: 20vh; /* vh view port hight*/
+}
+
+h2.sm-heading {
+  margin-bottom: 30px;
+  padding: 0.2rem 1rem;
+  background: rgba(lighten($primary-color, 2), 0.5);
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header {
+  position: fixed; /* header alway stay at top on fix position*/
+  z-index: 2; /*how close to*/
+  width: 100%;
+}
+
+.last-name {
+  color: #eec;
+}
+.first-name {
+  color: orange;
+}
+main {
+  padding: 70px;
+  height: 100%;
+}
+
+#home {
+  overflow: hidden;
+}
+.icons {
+  margin-top: 60px;
+}
+
+i {
+  padding: 5px;
+}
+i:hover {
+  color: orange;
+  transition: all 0.5s ease-out; /* tansition*/
+}
+
+/* Menu button*/
+
+.menu-btn {
+  float: right;
+}
