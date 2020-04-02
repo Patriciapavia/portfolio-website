@@ -5,7 +5,7 @@ Website:https://patriciapavia.github.io/portfolio-website/
 
 github:https://github.com/Patriciapavia/portfolio-website
 
-# purpose and Target audience
+# purpose
 
 The purpose of this website is to present myskill, and work for fulture employment potental.
 
@@ -31,17 +31,33 @@ HTML element has been use as appropriate purpose such as Navbar,heading, section
 # Responsive design
 
 all flex box and grid has been use to display website as responsive as possibe, using @media screen to define a display site that suitable for mobile device and small screen.
+
+# Target audience
+*Employer
+*project manager
+*freelancing
 # Sitemap
 ![sitemap](docs/sitemap.png)
 
+# Teach Stack
+* HTML is used for all text and content in every page.
+*CSS is use to style all element to display as a professtional website
+*javasript is use for navbar responsive for mobile
+*packet.jason is use to deploy and sript a file
+
 #screen Shot
-## homepage on desk top and mobile
+## homepage desktop and mobile
 ![home-des](docs/home-des.png)
+![home-des](docs/home-mobile.png)
 ## about page desktop and mobile site
 ![aboutpage](docs/about-des.png)
 ![aboutpage](docs/about-mobile.png)
+## contact desktop and mobile site
+![contact](docs/contact-des.png)
+![contact](docs/contact-mobile.png)
 
-
-
+## Blog desktop and mobile site
+![blog](docs/blog-des.png)
+![blog](docs/blog-mobile.png)
 
 
