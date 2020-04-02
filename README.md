@@ -36,6 +36,6 @@ all flex box and grid has been use to display website as responsive as possibe, 
 
 #screen Shot
 ##homepage on desk top and mobile
-![sitemap](docs/sitemap.png)
+![home-des](docs/home-des.png)
 
 
