@@ -5,7 +5,7 @@ Website:https://patriciapavia.github.io/portfolio-website/
 
 github:https://github.com/Patriciapavia/portfolio-website
 
-#purpose and Target audience
+# purpose and Target audience
 
 The purpose of this website is to present myskill, and work for fulture employment potental.
 
