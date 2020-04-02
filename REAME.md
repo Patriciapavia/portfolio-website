@@ -30,4 +30,4 @@ HTML element has been use as appropriate purpose such as Navbar,heading, section
 
 all flex box and grid has been use to display website as responsive as possibe, using @media screen to define a display site that suitable for mobile device and small screen.
 
-![Image description](./img/sitemap.png)
+![sitemap](img/sitemap.png)
